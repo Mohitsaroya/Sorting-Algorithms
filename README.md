@@ -1,3 +1,3 @@
-# Sorting-Algorithms
+#Mergesort Algorithms
 
-Merge-sort algorithm works by dividing the array into small arrays of size 1, comparing those small arrays and arranging them in order. When that is done, the small arrays are merged together and for a sorted list.
+The array is recursively divided into smaller subarrays until each subarray has a size of 1, which is inherently sorted. The subarrays are then merged in a way that maintains order, resulting in larger sorted arrays. This merging process continues until all the subarrays are combined into a single, fully sorted array.
