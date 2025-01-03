@@ -1,7 +1,11 @@
 # Mergesort Algorithm
 
-The array is recursively divided into smaller subarrays until each subarray has a size of 1, which is inherently sorted. The subarrays are then merged in a way that maintains order, resulting in larger sorted arrays. This merging process continues until all the subarrays are combined into a single, fully sorted array.
+We divide the array into two halves, repeatedly splitting it until each segment contains only one element, as single-element arrays are inherently sorted. Then, we begin merging these segments back together, comparing elements from each half and arranging them in order. This merging process continues until all segments are combined into a single, sorted array.
 
 # Bubblesort Algorithm
 
-The array is iteratively processed multiple times, with each pass comparing adjacent elements and swapping them if they are out of order. This process pushes the largest unsorted element to its correct position at the end of the array during each pass. Subsequent passes ignore the already sorted portion of the array, focusing only on the unsorted elements. This continues until no swaps are needed, indicating that the array is fully sorted.
+We start by comparing adjacent elements in the array, checking if the current element is larger than the one next to it. If so, the two elements are swapped. This process is repeated for each pair of adjacent elements in the array, effectively 'bubbling' the largest unsorted element to its correct position. The procedure continues for the remaining unsorted portion of the array until the entire array is sorted.
+
+# Insertionsort Algorithm
+
+We assume the first element of the array is already sorted and begin sorting from the second element. The current element, referred to as the 'key,' is compared to the one before it. If the previous element is larger than the key, they are swapped. This process continues until the key reaches its correct position in the array.
