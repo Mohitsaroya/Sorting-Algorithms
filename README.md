@@ -13,3 +13,7 @@ We assume the first element of the array is already sorted and begin sorting fro
 ## Quick-sort Algorithm
 
 We first take the pivot as the first element of the array (the middle and the last elements are also viable options). We then iterate through the array, comparing elements to the pivot and partitioning them based on whether they are smaller or larger than the pivot. This process is repeated recursively until all the elements are sorted
+
+## Heap-sort Algorithm
+
+We take the array and make a max heap, which is a tree with the largest element of the array at the top. This element is then moved to the end of the array and is considered sorted. Then we move to the next element and make a create heap and place the largest element left of the previously sorted element. This process is repeated until the entire array is sorted
