@@ -14,7 +14,7 @@ def buildheapmax(arr, n):
 def heapify(arr, i, n):
     largest = i
     left = 2*i + 1
-    right = 2*i + 2
+    right = 2*i + 20
     
     if left < n and arr[left] > arr[i]:
         largest = left
